@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework Planner</title>
+</head>
+<body>
+  <h1>Homework Planner</h1>
+
+  <div>
+    <input id="title" placeholder="Assignment name">
+    <input id="subject" placeholder="Subject">
+    <input id="due" type="date">
+    <input id="minutes" type="number" placeholder="Minutes needed">
+    <input id="difficulty" type="number" min="1" max="5" placeholder="Difficulty 1–5">
+    <input id="importance" type="number" min="1" max="5" placeholder="Importance 1–5">
+    <button id="addBtn">Add Assignment</button>
+  </div>
+
+  <div>
+    <input id="startTime" type="time" value="15:30">
+    <button id="generateBtn">Generate Schedule</button>
+  </div>
+
+  <div id="timeline"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
